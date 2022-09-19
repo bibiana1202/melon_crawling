@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 import time
 import pickle
-Path = '/Volumes/GoogleDrive/내 드라이브/nlp_project/전처리/'
+Path = 'G:/내 드라이브/nlp_project/전처리/'
 
 
 ##############################함수##############################함수##############################함수##############################함수##############################함수
@@ -84,8 +84,8 @@ print(len(df_title_songid))
   songidTolyris(df,si,ei)
 """
   
-for j in range (1,8):
-  start= j *10
+for j in range (2,8):
+  start= j *10 + 1
   end = start + 2
   for i in tqdm(range(start,end)):
     size = 1000
